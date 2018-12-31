@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S",
+    "GW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magma_cream"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "gumho:fr_creamy_flavoring",
+    "count": 1
+  }
+}
+

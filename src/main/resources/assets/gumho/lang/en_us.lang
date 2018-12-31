@@ -1,0 +1,40 @@
+itemGroup.Gum-Ho=Gum-Ho
+
+tile.gum_block.name=Gum Block (Test Block)
+
+item.vanilla_gumstick.name=Stick of Vanilla Gum
+item.vanilla_smothered_iron_ingot.name=Iron Ingot Smothered w/Vanilla Gum
+item.vanilla_ingot.name=Vanilla Gum Ingot
+item.vanilla_gum_sword.name=Vanilla Gum Sword
+item.vanilla_gum_spade.name=Vanilla Gum Shovel
+item.vanilla_gum_pickaxe.name=Vanilla Gum Pickaxe
+item.vanilla_gum_axe.name=Vanilla Gum Axe
+item.vanilla_gum_hoe.name=Vanilla Gum Hoe
+item.vanilla_gum_helmet.name=Vanilla Gum Helmet
+item.vanilla_gum_chestplate.name=Vanilla Gum Chestplate
+item.vanilla_gum_leggings.name=Vanilla Gum Leggings
+item.vanilla_gum_boots.name=Vanilla Gum Boots
+
+item.flame_resistant_creamy_gumstick.name=Creamy "Stick" of Gum
+item.fr_creamy_flavoring.name=Creamy Flavoring (Spicy)
+
+item.resistance_hardened_gumstick.name=Chunky Gum
+item.resistance_hardened_flavoring.name=Hardened Flavoring
+
+item.jump_boost_meaty_flavoring.name=The Blood of a Rabbit
+item.jump_boost_meaty_gumstick.name=A Rabbit's Foot Embedded In Gum
+
+item.regeneration_hearty_flavoring.name=Grandma's Secret Flavoring
+item.regeneration_hearty_gumstick.name=Grandma's Secret Gum She Keeps Under The Table
+
+item.water_breathing_smelly_flavoring.name=A Smelly Liquid
+item.water_breathing_smelly_gumstick.name=A Smelly Sticky Substance
+
+item.night_vision_flavoring.name=Carrot Juice
+item.night_vision_gumstick.name=Carrot but Gum
+
+item.strength_edgy_flavoring.name=Questionable Liquid
+item.strength_edgy_gumstick.name="Gum"
+
+item.coal_flavoring.name=Liquefied Coal
+item.coal_gumball.name=Coalball

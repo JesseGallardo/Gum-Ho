@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S",
+    "F "
+  ],
+
+  "key": {
+    "#": {
+      "item": "minecraft:sugar"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    },
+    "F": {
+      "item": "gumho:regeneration_hearty_flavoring"
+    }
+  },
+  "result": {
+    "item": "gumho:regeneration_hearty_gumstick",
+    "count": 2
+  }
+}

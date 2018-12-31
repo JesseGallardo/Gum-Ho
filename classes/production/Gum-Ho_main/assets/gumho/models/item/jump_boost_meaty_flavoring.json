@@ -1,0 +1,6 @@
+{ 
+   "parent": "item/generated", 
+   "textures": { 
+     "layer0": "gumho:items/jump_boost_meaty_flavoring" 
+   } 
+}

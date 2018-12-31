@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "gumho:items/vanilla_gum_pickaxe"
+  }
+}

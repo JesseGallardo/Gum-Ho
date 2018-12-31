@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#F#",
+    "###"
+  ],
+
+  "key": {
+    "#": {
+      "item": "minecraft:coal"
+    },
+    "F": {
+      "item": "gumho:vanilla_gumstick"
+    }
+  },
+  "result": {
+    "item": "gumho:flame_resistant_creamy_gumstick",
+    "count": 2
+  }
+}

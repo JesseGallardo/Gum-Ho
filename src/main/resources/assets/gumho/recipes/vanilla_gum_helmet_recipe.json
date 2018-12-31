@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "i i"
+  ],
+  "key": {
+    "i": {
+      "item": "gumho:vanilla_ingot"
+    }
+  },
+  "result": {
+      "item": "gumho:vanilla_gum_helmet",
+      "count": 1
+  }
+}

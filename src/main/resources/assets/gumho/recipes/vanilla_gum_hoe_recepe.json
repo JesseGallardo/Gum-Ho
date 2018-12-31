@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ii",
+    " /",
+    " /"
+  ],
+  "key": {
+    "i": {
+      "item": "gumho:vanilla_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gumho:vanilla_gum_hoe",
+    "count": 1
+  }
+}
