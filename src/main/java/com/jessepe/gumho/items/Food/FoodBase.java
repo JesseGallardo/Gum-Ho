@@ -1,6 +1,6 @@
 package com.jessepe.gumho.items.Food;
 
-import com.jessepe.gumho.Main;
+import com.jessepe.gumho.GumHo;
 import com.jessepe.gumho.init.ModItems;
 import com.jessepe.gumho.util.IHasModel;
 import net.minecraft.item.ItemFood;
@@ -12,7 +12,7 @@ public class FoodBase extends ItemFood implements IHasModel {
 
         setUnlocalizedName(name);
         setRegistryName(name);
-        setCreativeTab(Main.GUMHO_TAB);
+        setCreativeTab(GumHo.GUMHO_TAB);
         setAlwaysEdible();
 
         ModItems.ITEMS.add(this);
@@ -20,7 +20,7 @@ public class FoodBase extends ItemFood implements IHasModel {
 
     @Override
     public void registerModels() {
-        Main.proxy.registerItemRenderer(this, 0, "inventory");
+        GumHo.proxy.registerItemRenderer(this, 0, "inventory");
     }
 
 }

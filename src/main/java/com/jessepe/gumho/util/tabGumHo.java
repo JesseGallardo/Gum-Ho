@@ -12,6 +12,6 @@ public class tabGumHo extends CreativeTabs{
 
     @Override
     public ItemStack getTabIconItem() {
-        return new ItemStack(ModItems.VANILLA_GUMSTICK);
+        return new ItemStack(ModItems.Vanilla_Ingot);
     }
 }

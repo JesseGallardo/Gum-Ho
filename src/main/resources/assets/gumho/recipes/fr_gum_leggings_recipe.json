@@ -1,0 +1,9 @@
+{ 
+    "type": "minecraft:crafting_shaped", 
+    "pattern": [], 
+    "key": {}, 
+    "result": {
+        "item": "gumho:fr_gum_leggings_recipe.json",
+        "count": 1
+    } 
+}
