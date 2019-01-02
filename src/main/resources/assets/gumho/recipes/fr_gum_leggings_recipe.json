@@ -1,9 +1,20 @@
 { 
     "type": "minecraft:crafting_shaped", 
-    "pattern": [], 
-    "key": {}, 
+    "pattern": [
+        "FFF",
+        "FCF",
+        "F F"
+    ],
+    "key": {
+        "F": {
+            "item": "gumho:fr_gum_ingot"
+        },
+        "C": {
+            "item": "gumho:gum_binding_1"
+        }
+    },
     "result": {
-        "item": "gumho:fr_gum_leggings_recipe.json",
+        "item": "gumho:fr_gum_leggings",
         "count": 1
     } 
 }

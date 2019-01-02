@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shaped", 
+    "pattern": [
+        "#i"
+    ],
+    "key": {
+        "#": {
+            "item": "gumho:flame_resistant_creamy_gumstick"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "gumho:fr_smothered_ingot", 
+        "count": 1
+    } 
+}

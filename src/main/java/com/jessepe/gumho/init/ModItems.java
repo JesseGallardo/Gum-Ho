@@ -29,8 +29,11 @@ public class ModItems {
     public static final Item.ToolMaterial MATERIAL_GUM_INGOT = EnumHelper.addToolMaterial("material_gum_ingot", 2,625,5.5F, 1.75F, 10);
     public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_VANILLA_GUM_INGOT = EnumHelper.addArmorMaterial("armor_material_gum_ingot", Reference.MOD_ID + ":vanilla_gum", 13,
             new int[] {3, 6, 8, 4}, 9, SoundEvents.BLOCK_SLIME_BREAK, 0.0F);
-    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_FR_GUM_INGOT = EnumHelper.addArmorMaterial("armor_material_gum_ingot", Reference.MOD_ID + ":fr_gum", 13,
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_FR_GUM_INGOT = EnumHelper.addArmorMaterial("armor_material_fr_gum_ingot", Reference.MOD_ID + ":fr_gum", 13,
             new int[] {3, 6, 8, 4}, 3, SoundEvents.BLOCK_SLIME_BREAK, 0.0F);
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RH_GUM_INGOT = EnumHelper.addArmorMaterial("rh_material", Reference.MOD_ID + ":rh_gum",13,
+            new int[] {3, 6, 8, 4}, 9, SoundEvents.BLOCK_SLIME_BREAK, 2.0F);
+
 
     public static Item Vanilla_Gumstick;
     public static Item Vanilla_Smothered_Iron_Ingot;
@@ -50,39 +53,79 @@ public class ModItems {
 
     public static Item FR_Creamy_Flavoring;
     public static Item FR_Creamy_Gumstick;
+    public static Item FR_Smothered_Ingot;
+    public static Item FR_Gum_Ingot;
     public static Item FR_Gum_Helmet;
     public static Item FR_Gum_Chestplate;
     public static Item FR_Gum_Leggings;
     public static Item FR_Gum_Boots;
-
+    
 
     public static Item Resistance_Hardened_Flavoring;
     public static Item Resistance_Hardened_Gumstick;
-
+    public static Item Resistance_Hardened_Smothered_Ingot;
+    public static Item Resistance_Hardened_Ingot;
+    public static Item Resistance_Hardened_Helmet;
+    public static Item Resistance_Hardened_Chestplate;
+    public static Item Resistance_Hardened_Leggings;
+    public static Item Resistance_Hardened_Boots;
+    
 
     public static Item Jump_Boost_Flavoring;
     public static Item Jump_Boost_Gumstick;
+    public static Item JB_Smothered_Ingot;
+    public static Item JB_Ingot;
+    public static Item JB_Helmet;
+    public static Item JB_Chestplate;
+    public static Item JB_Leggings;
+    public static Item JB_Boots;
 
 
     public static Item Regeneration_Flavoring;
     public static Item Regeneration_Gumstick;
+    public static Item RG_Smothered_Ingot;
+    public static Item RG_Ingot;
+    public static Item RG_Helmet;
+    public static Item RG_Chestplate;
+    public static Item RG_Leggings;
+    public static Item RG_Boots;
 
 
     public static Item Water_Breathing_Flavoring;
     public static Item Water_Breathing_Gumstick;
+    public static Item WB_Smothered_Ingot;
+    public static Item WB_Ingot;
+    public static Item WB_Helmet;
+    public static Item WB_Chestplate;
+    public static Item WB_Leggings;
+    public static Item WB_Boots;
 
 
     public static Item Night_Vision_Flavoring;
     public static Item Night_Vision_Gumstick;
+    public static Item NV_Smothered_Ingot;
+    public static Item NV_Ingot;
+    public static Item NV_Helmet;
+    public static Item NV_Chestplate;
+    public static Item NV_Leggings;
+    public static Item NV_Boots;
 
 
     public static Item Strength_Flavoring;
     public static Item Strength_Gumstick;
+    public static Item STR_Smothered_Ingot;
+    public static Item STR_Ingot;
+    public static Item STR_Helmet;
+    public static Item STR_Chestplate;
+    public static Item STR_Leggings;
+    public static Item STR_Boots;
 
 
     public static Item Coal_Flavoring;
-    public static Item Coal_Gumstick;
+    public static Item Coal_Gumball;
 
+    public static Item Gum_Binding_Core_1;
+    public static Item Gum_Binding_Core_2;
 
     private static PotionEffect fr = createPotionEffect(MobEffects.FIRE_RESISTANCE, 2, 0);
     private static PotionEffect rs = createPotionEffect(MobEffects.RESISTANCE, 2, 0);
@@ -147,6 +190,11 @@ public class ModItems {
         FR_Gum_Chestplate = new ArmorEffectBase("fr_gum_chestplate", ARMOR_MATERIAL_FR_GUM_INGOT, 1, EntityEquipmentSlot.CHEST, fr);
         FR_Gum_Leggings = new ArmorEffectBase("fr_gum_leggings", ARMOR_MATERIAL_FR_GUM_INGOT, 2, EntityEquipmentSlot.LEGS, fr);
         FR_Gum_Boots = new ArmorEffectBase("fr_gum_boots", ARMOR_MATERIAL_FR_GUM_INGOT, 1, EntityEquipmentSlot.FEET, fr);
+
+        Resistance_Hardened_Helmet = new ArmorEffectBase("rh_helmet", ARMOR_MATERIAL_RH_GUM_INGOT, 1, EntityEquipmentSlot.HEAD, rs);
+        Resistance_Hardened_Chestplate = new ArmorEffectBase("rh_chestplate", ARMOR_MATERIAL_RH_GUM_INGOT, 1, EntityEquipmentSlot.CHEST, rs);
+        Resistance_Hardened_Leggings = new ArmorEffectBase("rh_leggings", ARMOR_MATERIAL_RH_GUM_INGOT, 2, EntityEquipmentSlot.LEGS, rs);
+        Resistance_Hardened_Boots = new ArmorEffectBase("rh_boots", ARMOR_MATERIAL_RH_GUM_INGOT, 1, EntityEquipmentSlot.FEET, rs);
     }
 
     private static void registerMaterials(){
@@ -156,12 +204,20 @@ public class ModItems {
     private static void registerIngotsGems(){
         Vanilla_Smothered_Iron_Ingot = new ItemBase("vanilla_smothered_iron_ingot");
         Vanilla_Ingot = new ItemBase("vanilla_ingot");
+        //TODO: Use the python program for theses and make the texture
+        FR_Smothered_Ingot = new ItemBase("fr_smothered_ingot");
+        FR_Gum_Ingot = new ItemBase("fr_gum_ingot");
+
+        Resistance_Hardened_Smothered_Ingot = new ItemBase("rh_smothered_ingot");
+        Resistance_Hardened_Ingot = new ItemBase("rh_ingot");
     }
 
     private static void registerOtherItems(){
         Coal_Flavoring = new ItemBase("coal_flavoring");
-        Coal_Gumstick = new GumFuel("coal_gumball", 16000 * 8);
-
+        Coal_Gumball = new GumFuel("coal_gumball", 16000 * 8);
+        //TODO:Use the python script and make the textures
+        Gum_Binding_Core_1 = new ItemBase("gum_binding_1");
+        Gum_Binding_Core_2 = new ItemBase("gum_binding_2");
     }
 
 }

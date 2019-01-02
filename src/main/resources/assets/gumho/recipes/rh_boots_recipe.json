@@ -1,19 +1,19 @@
 { 
     "type": "minecraft:crafting_shaped", 
     "pattern": [
-        "F F",
-        "FCF"
+        "R R",
+        "RCR"
     ],
     "key": {
-        "F": {
-            "item": "gumho:fr_gum_ingot"
+        "R": {
+            "item": "gumho:rh_ingot"
         },
         "C": {
             "item": "gumho:gum_binding_1"
         }
     },
     "result": {
-        "item": "gumho:fr_gum_boots",
+        "item": "gumho:rh_boots", 
         "count": 1
     } 
 }

@@ -17,9 +17,17 @@ item.vanilla_gum_boots.name=Vanilla Gum Boots
 
 item.flame_resistant_creamy_gumstick.name=Creamy "Stick" of Gum
 item.fr_creamy_flavoring.name=Creamy Flavoring (Spicy)
+item.fr_smothered_ingot.name=Iron Ingot Smothered w/Creamy Gum
+item.fr_gum_ingot.name=Creamy Ingot of Fire Resistance
+item.fr_gum_helmet.name=Creamy Binded Helmet
+item.fr_gum_chestplate.name=Creamy Binded Chestplate
+item.fr_gum_leggings.name=Creamy Binded Leggings
+item.fr_gum_boots.name=Creamy Binded Boots
 
 item.resistance_hardened_gumstick.name=Chunky Gum
 item.resistance_hardened_flavoring.name=Hardened Flavoring
+item.rh_smothered_ingot.name=Iron Ingot Smothered w/Chunky Gum
+item.rh_ingot.name=Ingot of Resistance
 
 item.jump_boost_meaty_flavoring.name=The Blood of a Rabbit
 item.jump_boost_meaty_gumstick.name=A Rabbit's Foot Embedded In Gum
@@ -37,4 +45,7 @@ item.strength_edgy_flavoring.name=Questionable Liquid
 item.strength_edgy_gumstick.name="Gum"
 
 item.coal_flavoring.name=Liquefied Coal
-item.coal_gumball.name=Coalball
+item.coal_gumball.name=Coal Gumball
+
+item.gum_binding_1.name=Gum Binding Core Mk. I
+item.gum_binding_2.name=Gum Binding Core Mk. II

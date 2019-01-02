@@ -1,0 +1,20 @@
+{ 
+    "type": "minecraft:crafting_shaped", 
+    "pattern": [
+        " f ",
+        "r#w",
+        " n "
+    ],
+    "key": {
+        "f": {
+            "item": "gumho:flame_resistant_creamy_gumstick"
+        },
+        "r": {
+            "item": "gumho:resistance_hardened_gumstick"
+        }
+    },
+    "result": {
+        "item": "gumho:gum_binding_1", 
+        "count": 1
+    } 
+}

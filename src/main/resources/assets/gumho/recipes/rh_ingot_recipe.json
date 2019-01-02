@@ -1,0 +1,8 @@
+{ 
+    "type": "minecraft:crafting_shaped", 
+
+    "result": {
+        "item": "gumho:rh_ingot", 
+        "count": 1
+    } 
+}
