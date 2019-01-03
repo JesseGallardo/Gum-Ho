@@ -1,0 +1,20 @@
+{ 
+    "type": "minecraft:crafting_shaped", 
+    "pattern": [
+        "JJJ",
+        "JCJ",
+        "J J"
+    ],
+    "key": {
+        "J": {
+            "item": "gumho:jb_ingot"
+        },
+        "C": {
+            "item": "gumho:gum_binding_1"
+        }
+    },
+    "result": {
+        "item": "gumho:jb_leggings", 
+        "count": 1
+    } 
+}

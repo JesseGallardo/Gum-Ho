@@ -2,8 +2,8 @@ itemGroup.Gum-Ho=Gum-Ho
 
 tile.gum_block.name=Gum Block (Test Block)
 
-item.vanilla_gumstick.name=Stick of Vanilla Gum
-item.vanilla_smothered_iron_ingot.name=Iron Ingot Smothered w/Vanilla Gum
+item.vanilla_gumstick.name=Vanilla Gumstick
+item.vanilla_smothered_iron_ingot.name=Vanilla Smothered Ingot
 item.vanilla_ingot.name=Vanilla Gum Ingot
 item.vanilla_gum_sword.name=Vanilla Gum Sword
 item.vanilla_gum_spade.name=Vanilla Gum Shovel
@@ -15,34 +15,52 @@ item.vanilla_gum_chestplate.name=Vanilla Gum Chestplate
 item.vanilla_gum_leggings.name=Vanilla Gum Leggings
 item.vanilla_gum_boots.name=Vanilla Gum Boots
 
-item.flame_resistant_creamy_gumstick.name=Creamy "Stick" of Gum
-item.fr_creamy_flavoring.name=Creamy Flavoring (Spicy)
-item.fr_smothered_ingot.name=Iron Ingot Smothered w/Creamy Gum
-item.fr_gum_ingot.name=Creamy Ingot of Fire Resistance
-item.fr_gum_helmet.name=Creamy Binded Helmet
-item.fr_gum_chestplate.name=Creamy Binded Chestplate
-item.fr_gum_leggings.name=Creamy Binded Leggings
-item.fr_gum_boots.name=Creamy Binded Boots
+item.flame_resistant_creamy_gumstick.name=Fire Resistance Gumstick
+item.fr_creamy_flavoring.name=Fire Resistance Flavoring
+item.fr_smothered_ingot.name=Fire Resistance Smothered Ingot
+item.fr_gum_ingot.name=Ingot of Fire Resistance
+item.fr_gum_helmet.name=Fire Resist. Gum Helmet
+item.fr_gum_chestplate.name=Fire Resist. Gum Chestplate
+item.fr_gum_leggings.name=Fire Resist. Gum Leggings
+item.fr_gum_boots.name=Fire Resist. Gum Boots
 
-item.resistance_hardened_gumstick.name=Chunky Gum
-item.resistance_hardened_flavoring.name=Hardened Flavoring
-item.rh_smothered_ingot.name=Iron Ingot Smothered w/Chunky Gum
+item.resistance_hardened_gumstick.name=Resistance Gumstick
+item.resistance_hardened_flavoring.name=Resistance Flavoring
+item.rh_smothered_ingot.name=Resistance Smothered Gum
 item.rh_ingot.name=Ingot of Resistance
+item.rh_helmet.name=Resistance Gum Helmet
+item.rh_chestplate.name=Resistance Gum Chestplate
+item.rh_leggings.name=Resistance Gum Leggings
+item.rh_boots.name=Resistance Gum Boots
 
-item.jump_boost_meaty_flavoring.name=The Blood of a Rabbit
-item.jump_boost_meaty_gumstick.name=A Rabbit's Foot Embedded In Gum
+item.jump_boost_meaty_flavoring.name=Jump Boost Flavoring
+item.jump_boost_meaty_gumstick.name=Jump Boost Gumstick
+item.jb_smothered_ingot.name=Jump Boost Smothered Ingot
+item.jb_ingot.name=Ingot of Jump Boost
+item.jb_helmet.name=Jump Boost Gum Helmet
+item.jb_chestplate.name=Jump Boost Gum Chestplate
+item.jb_leggings.name=Jump Boost Gum Leggings
+item.jb_boots.name=Jump Boost Gum Boots
 
-item.regeneration_hearty_flavoring.name=Grandma's Secret Flavoring
-item.regeneration_hearty_gumstick.name=Grandma's Secret Gum She Keeps Under The Table
+item.regeneration_hearty_flavoring.name=Regeneration Flavoring
+item.regeneration_hearty_gumstick.name=Regeneration Gumstick
+item.rg_smothered_gem.name=Regeneration Smothered Gem
+item.rg_gem.name=Gem of Regeneration
 
-item.water_breathing_smelly_flavoring.name=A Smelly Liquid
-item.water_breathing_smelly_gumstick.name=A Smelly Sticky Substance
+item.water_breathing_smelly_flavoring.name=Water Breathing Flavoring
+item.water_breathing_smelly_gumstick.name=Water Breathing Gumstick
+item.wb_smothered_ingot.name=Water Breathing Smothered Ingot
+item.wb_ingot.name=Ingot of Water Breathing
 
-item.night_vision_flavoring.name=Carrot Juice
-item.night_vision_gumstick.name=Carrot but Gum
+item.night_vision_flavoring.name=Night Vision Flavoring
+item.night_vision_gumstick.name=Night Vision Gumstick
+item.nv_smothered_gem.name=Night Vision Smothered Gem
+item.nv_gem.name=Gem of Night Vision
 
-item.strength_edgy_flavoring.name=Questionable Liquid
-item.strength_edgy_gumstick.name="Gum"
+item.strength_edgy_flavoring.name=Strength Flavoring
+item.strength_edgy_gumstick.name=Strength Gumstick
+item.str_smothered_gem.name=Strength Smothered Gem
+item.str_gem.name=Gem of Strength
 
 item.coal_flavoring.name=Liquefied Coal
 item.coal_gumball.name=Coal Gumball

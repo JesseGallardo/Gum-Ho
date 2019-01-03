@@ -30,9 +30,13 @@ public class ModItems {
     public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_VANILLA_GUM_INGOT = EnumHelper.addArmorMaterial("armor_material_gum_ingot", Reference.MOD_ID + ":vanilla_gum", 13,
             new int[] {3, 6, 8, 4}, 9, SoundEvents.BLOCK_SLIME_BREAK, 0.0F);
     public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_FR_GUM_INGOT = EnumHelper.addArmorMaterial("armor_material_fr_gum_ingot", Reference.MOD_ID + ":fr_gum", 13,
-            new int[] {3, 6, 8, 4}, 3, SoundEvents.BLOCK_SLIME_BREAK, 0.0F);
+            new int[] {3, 6, 8, 4}, 9, SoundEvents.BLOCK_SLIME_BREAK, 0.0F);
     public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RH_GUM_INGOT = EnumHelper.addArmorMaterial("rh_material", Reference.MOD_ID + ":rh_gum",13,
             new int[] {3, 6, 8, 4}, 9, SoundEvents.BLOCK_SLIME_BREAK, 2.0F);
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_JB_GUM = EnumHelper.addArmorMaterial("armor_material_jb_gum", Reference.MOD_ID + ":jb_gum", 13,
+            new int[] {3, 6, 8, 4}, 9, SoundEvents.BLOCK_SLIME_BREAK, 0.0F);
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RG_GUM = EnumHelper.addArmorMaterial("jb_material", Reference.MOD_ID + ":rg_gum", 13,
+            new int[] {4, 8, 7, 4}, 3, SoundEvents.BLOCK_SLIME_BREAK, 0.0F);
 
 
     public static Item Vanilla_Gumstick;
@@ -195,6 +199,16 @@ public class ModItems {
         Resistance_Hardened_Chestplate = new ArmorEffectBase("rh_chestplate", ARMOR_MATERIAL_RH_GUM_INGOT, 1, EntityEquipmentSlot.CHEST, rs);
         Resistance_Hardened_Leggings = new ArmorEffectBase("rh_leggings", ARMOR_MATERIAL_RH_GUM_INGOT, 2, EntityEquipmentSlot.LEGS, rs);
         Resistance_Hardened_Boots = new ArmorEffectBase("rh_boots", ARMOR_MATERIAL_RH_GUM_INGOT, 1, EntityEquipmentSlot.FEET, rs);
+
+        JB_Helmet = new ArmorEffectBase("jb_helmet",ARMOR_MATERIAL_JB_GUM, 1, EntityEquipmentSlot.HEAD, jb);
+        JB_Chestplate = new ArmorEffectBase("jb_chestplate", ARMOR_MATERIAL_JB_GUM, 1, EntityEquipmentSlot.CHEST, jb);
+        JB_Leggings = new ArmorEffectBase("jb_leggings", ARMOR_MATERIAL_JB_GUM, 2, EntityEquipmentSlot.LEGS, jb);
+        JB_Boots = new ArmorEffectBase("jb_boots", ARMOR_MATERIAL_JB_GUM, 1, EntityEquipmentSlot.FEET, jb);
+
+        //RG_Helmet = new ArmorEffectBase("rg_helmet", ARMOR_MATERIAL_RG_GUM, 1, EntityEquipmentSlot.HEAD, rg);
+        //RG_Chestplate = new ArmorEffectBase("rg_chestplate", ARMOR_MATERIAL_RG_GUM, 1, EntityEquipmentSlot.CHEST, rg);
+        //RG_Leggings = new ArmorEffectBase("rg_leggings", ARMOR_MATERIAL_RG_GUM, 2,EntityEquipmentSlot.LEGS, rg);
+        //RG_Boots = new ArmorEffectBase("rg_boots", ARMOR_MATERIAL_RG_GUM, 1, EntityEquipmentSlot.FEET, rg);
     }
 
     private static void registerMaterials(){
@@ -204,18 +218,31 @@ public class ModItems {
     private static void registerIngotsGems(){
         Vanilla_Smothered_Iron_Ingot = new ItemBase("vanilla_smothered_iron_ingot");
         Vanilla_Ingot = new ItemBase("vanilla_ingot");
-        //TODO: Use the python program for theses and make the texture
+
         FR_Smothered_Ingot = new ItemBase("fr_smothered_ingot");
         FR_Gum_Ingot = new ItemBase("fr_gum_ingot");
 
         Resistance_Hardened_Smothered_Ingot = new ItemBase("rh_smothered_ingot");
         Resistance_Hardened_Ingot = new ItemBase("rh_ingot");
+
+        JB_Smothered_Ingot = new ItemBase("jb_smothered_ingot");
+        JB_Ingot = new ItemBase("jb_ingot");
+
+        WB_Smothered_Ingot = new ItemBase("wb_smothered_ingot");
+        WB_Ingot = new ItemBase("wb_ingot");
+
+        RG_Smothered_Ingot = new ItemBase("rg_smothered_gem");
+        RG_Ingot = new ItemBase("rg_gem");
+
+        NV_Smothered_Ingot = new ItemBase("nv_smothered_gem");
+        NV_Ingot = new ItemBase("nv_gem");
+
+        STR_Ingot = new ItemBase("str_gem");
     }
 
     private static void registerOtherItems(){
         Coal_Flavoring = new ItemBase("coal_flavoring");
         Coal_Gumball = new GumFuel("coal_gumball", 16000 * 8);
-        //TODO:Use the python script and make the textures
         Gum_Binding_Core_1 = new ItemBase("gum_binding_1");
         Gum_Binding_Core_2 = new ItemBase("gum_binding_2");
     }

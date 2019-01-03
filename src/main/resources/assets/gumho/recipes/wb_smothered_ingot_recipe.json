@@ -1,0 +1,9 @@
+{ 
+    "type": "minecraft:crafting_shaped", 
+    "pattern": [], 
+    "key": {}, 
+    "result": {
+        "item": "gumho:wb_smothered_ingot", 
+        "count": 1
+    } 
+}
