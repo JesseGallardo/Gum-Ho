@@ -1,0 +1,19 @@
+{ 
+    "type": "minecraft:crafting_shaped", 
+    "pattern": [
+        "WCW",
+        "W W"
+    ],
+    "key": {
+        "W": {
+            "item": "gumho:wb_ingot"
+        },
+        "C": {
+            "item": "gumho:gum_binding_1"
+        }
+    },
+    "result": {
+        "item": "gumho:wb_helmet", 
+        "count": 1
+    } 
+}

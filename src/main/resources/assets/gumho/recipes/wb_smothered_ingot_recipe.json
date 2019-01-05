@@ -1,7 +1,16 @@
 { 
     "type": "minecraft:crafting_shaped", 
-    "pattern": [], 
-    "key": {}, 
+    "pattern": [
+        "#i"
+    ],
+    "key": {
+        "#": {
+            "item": "gumho:water_breathing_smelly_gumstick"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
     "result": {
         "item": "gumho:wb_smothered_ingot", 
         "count": 1

@@ -1,0 +1,20 @@
+{ 
+    "type": "minecraft:crafting_shaped", 
+    "pattern": [
+        "RRR",
+        "RCR",
+        "R R"
+    ],
+    "key": {
+        "C": {
+            "item": "gumho:gum_binding_2"
+        },
+        "R": {
+            "item": "gumho:rg_gem"
+        }
+    },
+    "result": {
+        "item": "gumho:rg_leggings", 
+        "count": 1
+    } 
+}

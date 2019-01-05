@@ -1,0 +1,19 @@
+{ 
+    "type": "minecraft:crafting_shaped", 
+    "pattern": [
+        "NCN",
+        "N N"
+    ],
+    "key": {
+        "N": {
+            "item": "gumho:nv_gem"
+        },
+        "C": {
+            "item": "gumho:gum_binding_2"
+        }
+    },
+    "result": {
+        "item": "gumho:nv_helmet", 
+        "count": 1
+    } 
+}

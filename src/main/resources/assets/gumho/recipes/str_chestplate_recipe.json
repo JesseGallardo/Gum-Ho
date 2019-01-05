@@ -1,0 +1,20 @@
+{ 
+    "type": "minecraft:crafting_shaped", 
+    "pattern": [
+        "S S",
+        "SCS",
+        "SSS"
+    ],
+    "key": {
+        "S": {
+            "item": "gumho:str_gem"
+        },
+        "C": {
+            "item": "gumho:gum_binding_2"
+        }
+    },
+    "result": {
+        "item": "gumho:str_chestplate", 
+        "count": 1
+    } 
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#i"
+  ],
+  "key": {
+    "#": {
+      "item": "gumho:regeneration_hearty_gumstick"
+    },
+    "i": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "gumho:rg_smothered_gem",
+    "count": 1
+  }
+}

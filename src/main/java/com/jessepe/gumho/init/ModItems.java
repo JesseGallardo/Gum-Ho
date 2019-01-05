@@ -22,21 +22,26 @@ import java.util.List;
 public class ModItems {
     //TODO:To make a new item, add the name in the lang file, add the json in models/item directory, add the recipe in the recipes directory, and the textures in the textures/items directory
 
-    /*----Others----*/
 
     public static final List<Item> ITEMS = new ArrayList<Item>();
 
     public static final Item.ToolMaterial MATERIAL_GUM_INGOT = EnumHelper.addToolMaterial("material_gum_ingot", 2,625,5.5F, 1.75F, 10);
-    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_VANILLA_GUM_INGOT = EnumHelper.addArmorMaterial("armor_material_gum_ingot", Reference.MOD_ID + ":vanilla_gum", 13,
-            new int[] {3, 6, 8, 4}, 9, SoundEvents.BLOCK_SLIME_BREAK, 0.0F);
-    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_FR_GUM_INGOT = EnumHelper.addArmorMaterial("armor_material_fr_gum_ingot", Reference.MOD_ID + ":fr_gum", 13,
-            new int[] {3, 6, 8, 4}, 9, SoundEvents.BLOCK_SLIME_BREAK, 0.0F);
-    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RH_GUM_INGOT = EnumHelper.addArmorMaterial("rh_material", Reference.MOD_ID + ":rh_gum",13,
-            new int[] {3, 6, 8, 4}, 9, SoundEvents.BLOCK_SLIME_BREAK, 2.0F);
-    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_JB_GUM = EnumHelper.addArmorMaterial("armor_material_jb_gum", Reference.MOD_ID + ":jb_gum", 13,
-            new int[] {3, 6, 8, 4}, 9, SoundEvents.BLOCK_SLIME_BREAK, 0.0F);
-    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RG_GUM = EnumHelper.addArmorMaterial("jb_material", Reference.MOD_ID + ":rg_gum", 13,
-            new int[] {4, 8, 7, 4}, 3, SoundEvents.BLOCK_SLIME_BREAK, 0.0F);
+
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_VANILLA_GUM_INGOT = EnumHelper.addArmorMaterial("armor_material_gum_ingot", Reference.MOD_ID + ":vanilla_gum", 10, new int[] { 1, 3, 3, 1 }, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0F);
+
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_FR_GUM_INGOT = EnumHelper.addArmorMaterial("armor_material_fr_gum_ingot", Reference.MOD_ID + ":fr_gum", 13,  new int[] {3, 6, 8, 4}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.5F);
+
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RH_GUM_INGOT = EnumHelper.addArmorMaterial("rh_material", Reference.MOD_ID + ":rh_gum",13, new int[] {3, 6, 8, 4}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 2.0F);
+
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_JB_GUM = EnumHelper.addArmorMaterial("armor_material_jb_gum", Reference.MOD_ID + ":jb_gum", 13, new int[] {3, 6, 8, 4}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.F);
+
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_WB_GUM = EnumHelper.addArmorMaterial("wb_material", Reference.MOD_ID + ":wb_gum", 13, new int[] {3, 6, 8, 4}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.5F);
+
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RG_GUM = EnumHelper.addArmorMaterial("rg_material", Reference.MOD_ID + ":rg_gum", 16, new int[] {4, 8, 7, 4}, 3, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F);
+
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_NV_GUM = EnumHelper.addArmorMaterial("nv_material", Reference.MOD_ID + ":nv_gum", 16, new int[] {4, 8, 7, 4}, 3, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F);
+
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_STR_GUM = EnumHelper.addArmorMaterial("str_material", Reference.MOD_ID + ":str_gum", 16, new int[] {4, 8, 7, 4}, 3, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND , 1.5F);
 
 
     public static Item Vanilla_Gumstick;
@@ -145,7 +150,6 @@ public class ModItems {
 
     public static void registerItems(){
 
-        registerMaterials();
         registerOtherItems();
         registerFoodItems();
         registerIngotsGems();
@@ -205,14 +209,25 @@ public class ModItems {
         JB_Leggings = new ArmorEffectBase("jb_leggings", ARMOR_MATERIAL_JB_GUM, 2, EntityEquipmentSlot.LEGS, jb);
         JB_Boots = new ArmorEffectBase("jb_boots", ARMOR_MATERIAL_JB_GUM, 1, EntityEquipmentSlot.FEET, jb);
 
-        //RG_Helmet = new ArmorEffectBase("rg_helmet", ARMOR_MATERIAL_RG_GUM, 1, EntityEquipmentSlot.HEAD, rg);
-        //RG_Chestplate = new ArmorEffectBase("rg_chestplate", ARMOR_MATERIAL_RG_GUM, 1, EntityEquipmentSlot.CHEST, rg);
-        //RG_Leggings = new ArmorEffectBase("rg_leggings", ARMOR_MATERIAL_RG_GUM, 2,EntityEquipmentSlot.LEGS, rg);
-        //RG_Boots = new ArmorEffectBase("rg_boots", ARMOR_MATERIAL_RG_GUM, 1, EntityEquipmentSlot.FEET, rg);
-    }
+        RG_Helmet = new ArmorEffectBase("rg_helmet", ARMOR_MATERIAL_RG_GUM, 1, EntityEquipmentSlot.HEAD, rg);
+        RG_Chestplate = new ArmorEffectBase("rg_chestplate", ARMOR_MATERIAL_RG_GUM, 1, EntityEquipmentSlot.CHEST, rg);
+        RG_Leggings = new ArmorEffectBase("rg_leggings", ARMOR_MATERIAL_RG_GUM, 2,EntityEquipmentSlot.LEGS, rg);
+        RG_Boots = new ArmorEffectBase("rg_boots", ARMOR_MATERIAL_RG_GUM, 1, EntityEquipmentSlot.FEET, rg);
 
-    private static void registerMaterials(){
+        WB_Helmet = new ArmorEffectBase("wb_helmet", ARMOR_MATERIAL_WB_GUM, 1, EntityEquipmentSlot.HEAD, wb);
+        WB_Chestplate = new ArmorEffectBase("wb_chestplate", ARMOR_MATERIAL_WB_GUM, 1, EntityEquipmentSlot.CHEST, wb);
+        WB_Leggings = new ArmorEffectBase("wb_leggings", ARMOR_MATERIAL_WB_GUM, 2, EntityEquipmentSlot.LEGS, wb);
+        WB_Boots = new ArmorEffectBase("wb_boots", ARMOR_MATERIAL_WB_GUM, 1, EntityEquipmentSlot.FEET, wb);
 
+        NV_Helmet = new ArmorEffectBase("nv_helmet", ARMOR_MATERIAL_NV_GUM, 1, EntityEquipmentSlot.HEAD, nv);
+        NV_Chestplate = new ArmorEffectBase("nv_chestplate", ARMOR_MATERIAL_NV_GUM, 1, EntityEquipmentSlot.CHEST, nv);
+        NV_Leggings = new ArmorEffectBase("nv_leggings", ARMOR_MATERIAL_NV_GUM, 2, EntityEquipmentSlot.LEGS, nv);
+        NV_Boots = new ArmorEffectBase("nv_boots", ARMOR_MATERIAL_NV_GUM, 1, EntityEquipmentSlot.FEET, nv);
+
+        STR_Helmet = new ArmorEffectBase("str_helmet", ARMOR_MATERIAL_STR_GUM, 1, EntityEquipmentSlot.HEAD, st);
+        STR_Chestplate = new ArmorEffectBase("str_chestplate", ARMOR_MATERIAL_STR_GUM, 1, EntityEquipmentSlot.CHEST, st);
+        STR_Leggings = new ArmorEffectBase("str_leggings", ARMOR_MATERIAL_STR_GUM, 2, EntityEquipmentSlot.LEGS, st);
+        STR_Boots = new ArmorEffectBase("str_boots", ARMOR_MATERIAL_STR_GUM, 1, EntityEquipmentSlot.FEET, st);
     }
 
     private static void registerIngotsGems(){

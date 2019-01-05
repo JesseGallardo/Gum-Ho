@@ -1,7 +1,16 @@
 { 
     "type": "minecraft:crafting_shaped", 
-    "pattern": [], 
-    "key": {}, 
+    "pattern": [
+        "#i"
+    ],
+    "key": {
+        "#": {
+            "item": "gumho:night_vision_gumstick"
+        },
+        "i": {
+            "item": "minecraft:diamond"
+        }
+    },
     "result": {
         "item": "gumho:nv_smothered_gem", 
         "count": 1

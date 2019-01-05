@@ -8,14 +8,14 @@
 
   "key": {
     "#": {
-      "item": "minecraft:coal"
+      "item": "minecraft:coal_block"
     },
     "F": {
       "item": "gumho:vanilla_gumstick"
     }
   },
   "result": {
-    "item": "gumho:flame_resistant_creamy_gumstick",
+    "item": "gumho:coal_gumball",
     "count": 2
   }
 }

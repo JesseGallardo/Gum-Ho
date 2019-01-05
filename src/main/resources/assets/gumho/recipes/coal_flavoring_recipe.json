@@ -6,7 +6,7 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:coal"
     },
     "S": {
       "item": "minecraft:sugar"
@@ -19,7 +19,7 @@
     }
   },
   "result": {
-    "item": "gumho:fr_creamy_flavoring",
+    "item": "gumho:coal_flavoring",
     "count": 1
   }
 }

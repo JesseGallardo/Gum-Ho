@@ -12,7 +12,6 @@ public class ModRecipes{
         GameRegistry.addSmelting(ModItems.JB_Smothered_Ingot, new ItemStack(ModItems.JB_Ingot), 0.5F);
         GameRegistry.addSmelting(ModItems.RG_Smothered_Ingot, new ItemStack(ModItems.RG_Ingot), 0.5F);
         GameRegistry.addSmelting(ModItems.NV_Smothered_Ingot, new ItemStack(ModItems.NV_Ingot), 0.5F);
-        GameRegistry.addSmelting(ModItems.STR_Smothered_Ingot, new ItemStack(ModItems.STR_Ingot), 0.5F);
         GameRegistry.addSmelting(ModItems.WB_Smothered_Ingot, new ItemStack(ModItems.WB_Ingot), 0.5F);
     }
 

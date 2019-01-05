@@ -46,21 +46,37 @@ item.regeneration_hearty_flavoring.name=Regeneration Flavoring
 item.regeneration_hearty_gumstick.name=Regeneration Gumstick
 item.rg_smothered_gem.name=Regeneration Smothered Gem
 item.rg_gem.name=Gem of Regeneration
+item.rg_helmet.name=Regeneration Gum Helmet
+item.rg_chestplate.name=Regeneration Gum Chestplate
+item.rg_leggings.name=Regeneration Gum Leggings
+item.rg_boots.name=Regeneration Gum Boots
 
 item.water_breathing_smelly_flavoring.name=Water Breathing Flavoring
 item.water_breathing_smelly_gumstick.name=Water Breathing Gumstick
 item.wb_smothered_ingot.name=Water Breathing Smothered Ingot
 item.wb_ingot.name=Ingot of Water Breathing
+item.wb_helmet.name=Water Breathing Helmet
+item.wb_chestplate.name=Water Breathing Chestplate
+item.wb_leggings.name=Water Breathing Leggings
+item.wb_boots.name=Water Breathing Boots
 
 item.night_vision_flavoring.name=Night Vision Flavoring
 item.night_vision_gumstick.name=Night Vision Gumstick
 item.nv_smothered_gem.name=Night Vision Smothered Gem
 item.nv_gem.name=Gem of Night Vision
+item.nv_helmet.name=Night Vision Helmet
+item.nv_chestplate.name=Night Vision Chestplate
+item.nv_leggings.name=Night Vision Leggings
+item.nv_boots.name=Night Vision Boots
 
 item.strength_edgy_flavoring.name=Strength Flavoring
 item.strength_edgy_gumstick.name=Strength Gumstick
 item.str_smothered_gem.name=Strength Smothered Gem
 item.str_gem.name=Gem of Strength
+item.str_helmet.name=Strength Helmet
+item.str_chestplate.name=Strength Chestplate
+item.str_leggings.name=Strength Leggings
+item.str_boots.name=Strength Boots
 
 item.coal_flavoring.name=Liquefied Coal
 item.coal_gumball.name=Coal Gumball

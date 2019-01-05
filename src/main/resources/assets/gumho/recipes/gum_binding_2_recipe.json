@@ -1,7 +1,24 @@
 { 
     "type": "minecraft:crafting_shaped", 
-    "pattern": [], 
-    "key": {}, 
+    "pattern": [
+        " R ",
+        " C ",
+        "N S"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:emerald"
+        },
+        "R": {
+            "item": "gumho:regeneration_hearty_gumstick"
+        },
+        "N": {
+            "item": "gumho:night_vision_gumstick"
+        },
+        "S": {
+            "item": "gumho:strength_edgy_gumstick"
+        }
+    },
     "result": {
         "item": "gumho:gum_binding_2", 
         "count": 1

@@ -2,12 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "iii",
-    "i i",
+    "iCi",
     "i i"
   ],
   "key": {
     "i": {
       "item": "gumho:vanilla_ingot"
+    },
+    "C": {
+      "item": "gumho:gum_binding_1"
     }
   },
   "result": {
